@@ -6,14 +6,12 @@ These are the LaTeX sources for my academic CV.
 
 ## Build
 
-To build the CV, you need to have LaTeX installed. The full LaTeX distribution
-(e.g., TeXLive on Linux or MacTeX on macOS) are usually too big (>5 GB).
-I recommend to install the lightweight [TinyTeX](https://yihui.org/tinytex/)
-(< 100MB).
+I used [TinyTeX](https://yihui.org/tinytex/) to build the my CV on WSL2 (Ubuntu 20.04)
 
 1. 	Install TinyTeX:
 
-		curl -sL "https://yihui.org/tinytex/install-bin-unix.sh" | sh
+		wget https://yihui.org/tinytex/install-bin-unix.sh
+		./install-bin-unix.sh
 
 2. 	Install LaTeX packages needed by the CV template:
 
@@ -25,5 +23,4 @@ I recommend to install the lightweight [TinyTeX](https://yihui.org/tinytex/)
 
 ## Acknowledgemnt
 
-The CV templates are modified from https://github.com/leouieda/cv
-and https://github.com/core-man/cv.
+The CV templates are modified from https://github.com/leouieda/cv and https://github.com/core-man/cv.
