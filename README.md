@@ -6,7 +6,7 @@ These are the LaTeX sources for my academic CV.
 
 ## Build
 
-I used [TinyTeX](https://yihui.org/tinytex/) to build the my CV on WSL2 (Ubuntu 20.04)
+I used [TinyTeX](https://yihui.org/tinytex/) to build the my CV on WSL2 (Ubuntu 20.04) and M2 pro Macbook Pro
 
 1. 	Install TinyTeX:
 
